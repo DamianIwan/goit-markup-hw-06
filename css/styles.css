@@ -948,8 +948,61 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
 .email-submit{
     display: flex;
-    gap: 10px
+    gap: 10px;
 }
+
+
+
+
+
+.checkbox-container{
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+
+}
+.checkbox-container input{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+.checkmark{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:0;
+    left:0;
+    
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.checkmark::after{
+    content:'';
+   position: absolute;
+   width: 16px;
+   height: 15px; 
+}
+.checkbox-container input:checked ~ .checkmark:after {
+    opacity: 1;
+  }
+
+.checkbox-container .checkmark::after{
+background-image: url(../images/icons.svg#icon-check-done);
+background-size:cover;
+background-position: center;
+
+
+width: 16px;
+height: 15px;
+}
+
+
 
 
 
