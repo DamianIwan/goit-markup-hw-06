@@ -979,14 +979,15 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-container input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: var(--blue-color)
   }
 
 .checkmark::after{
     content:'';
    position: absolute;
    width: 16px;
-   height: 15px; 
+   height: 15px;
+   display: none;
 }
 .checkbox-container input:checked ~ .checkmark:after {
     opacity: 1;
@@ -996,8 +997,6 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 background-image: url(../images/icons.svg#icon-check-done);
 background-size:cover;
 background-position: center;
-
-
 width: 16px;
 height: 15px;
 }
