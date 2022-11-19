@@ -666,12 +666,12 @@ h5 {
   visibility: hidden;
   pointer-events: none;
 }
-.modl__close-button {
+.modal__close-button{
   position: absolute;
   right: 1%;
   top: 1%;
   background-color: var(--white-color);
-  background-image: url(../images/modl__close-button.svg);
+  background-image: url(../images/close-button.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 30px;
