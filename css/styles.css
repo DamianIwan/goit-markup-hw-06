@@ -164,8 +164,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.tittle1-footer {
-  color: #ffffff;
+.sing-in__title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.socialmedia-container_title {
+  color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -525,13 +533,13 @@ h5 {
   gap: 10px;
   margin-bottom: 30px;
 }
-.footer-socialmedia-wrraper {
+.socialmedia-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.footer-background-socialmedia-icon {
+.socialmedia-container__item___icon {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -543,7 +551,7 @@ h5 {
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-background-socialmedia-icon:hover {
+.socialmedia-container__item___icon:hover {
   background-color: var(--blue-color);
   border-radius: 50%;
   cursor: pointer;
@@ -553,7 +561,7 @@ h5 {
 .footer-socialmedia-icon {
   --color3: #ffffff;
 }
-.footer-social-media {
+.socialmedia-container__item {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -658,12 +666,12 @@ h5 {
   visibility: hidden;
   pointer-events: none;
 }
-.close-button {
+.modl__close-button {
   position: absolute;
   right: 1%;
   top: 1%;
   background-color: var(--white-color);
-  background-image: url(../images/close-button.svg);
+  background-image: url(../images/modl__close-button.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 30px;
@@ -672,7 +680,7 @@ h5 {
   border-radius: 50%;
   cursor: pointer;
 }
-.header-form {
+.modal__header {
   display: flex;
   margin: 0;
   justify-content: center;
@@ -681,7 +689,7 @@ h5 {
   line-height: 1.17;
   color: var(--black-color);
 }
-.fieldset {
+.modal__form__fieldset {
   padding-block: 5px;
   display: flex;
   align-content: center;
@@ -694,15 +702,15 @@ h5 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.fieldset:has(.input:focus) {
+.modal__form__fieldset:has(.input:focus) {
   border-color: var(--blue-color);
   fill: var(--blue-color);
 }
-.fieldset:has(textarea:focus) {
+.modal__form__fieldset:has(textarea:focus) {
   border-color: var(--blue-color);
 }
 
-.fieldset .input {
+.modal__form__fieldset .input {
   height: 40px;
   width: 90%;
   border: none;
@@ -710,13 +718,13 @@ h5 {
   outline: none;
 }
 
-.fieldset svg {
+.modal__form__fieldset svg {
   position: absolute;
   top: 20px;
   left: 15px;
   margin-right: 10px;
 }
-.fieldset > label {
+.modal__form__fieldset > label {
   position: absolute;
   top: -22px;
   left: 0px;
@@ -725,7 +733,7 @@ h5 {
   line-height: 1.16;
   color: var(--grey-color);
 }
-.input-comment {
+.modal__form__fieldset__textaea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   resize: none;
   border: none;
@@ -769,7 +777,7 @@ h5 {
   line-height: 1.8;
   cursor: pointer;
 }
-.footer-input-mail {
+.sing-in__mail__fieldset {
   display: flex;
   align-items: center;
   width: 358px;
@@ -779,7 +787,7 @@ h5 {
   border-radius: 4px;
   background-color: transparent;
 }
-.footer-input-mail input {
+.sing-in__mail__fieldset input {
   width: 100%;
   margin: 0;
   background-color: transparent;
@@ -792,7 +800,7 @@ h5 {
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-.footer-button {
+.sing-in__mail__button {
   width: 200px;
   height: 50px;
   display: flex;
@@ -811,7 +819,7 @@ h5 {
   fill: var(--white-color);
 }
 
-.email-submit {
+.sing-in__mail {
   display: flex;
   gap: 10px;
 }

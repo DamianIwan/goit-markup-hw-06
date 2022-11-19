@@ -450,24 +450,24 @@
             <li><a class="contact-footer" href="tel:+48111111111">+48111111111</a></li>
         </ul>
     </div>
-        <div class="footer-socialmedia-wrraper">
-            <h3 class="tittle1-footer">DOŁĄCZ DO NAS</h3>
-            <div class="footer-social-media">
-                <div class="footer-background-socialmedia-icon">      
+        <div class="socialmedia-container">
+            <h3 class="socialmedia-container_title">DOŁĄCZ DO NAS</h3>
+            <div class="socialmedia-container__item">
+                <div class="socialmedia-container__item___icon">      
                     <svg width="20" height="20" class="footer-socialmedia-icon">
                         <use href="./images/icons.svg#icon-instagram">
                             
                         </use>
                     </svg>
                 </div> 
-                <div class="footer-background-socialmedia-icon">
+                <div class="socialmedia-container__item___icon">
                     <svg width="20" height="17" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-twitter">
             
                     </use>
                 </svg>
             </div>
-            <div class="footer-background-socialmedia-icon">
+            <div class="socialmedia-container__item___icon">
                 <svg width="10" height="20" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-facebook">
                         
@@ -475,7 +475,7 @@
                 </svg>
             </div>
 
-            <div class="footer-background-socialmedia-icon">
+            <div class="socialmedia-container__item___icon">
                 <svg width="20" height="20" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-linkedin">
                         
@@ -484,13 +484,13 @@
             </div> 
         </div>
     </div>
-    <div>
-    <h3  class="tittle1-footer">ZAPISZ SIĘ DO NEWSLETTERA</h3>
-    <div class="email-submit">
-        <fieldset class="footer-input-mail">
+    <div class="sing-in">
+    <h3  class="sing-in__title">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+    <div class="sing-in__mail">
+        <fieldset class="sing-in__mail__fieldset">
         <input type="email" placeholder="E-mail">
         </fieldset>
-        <button class="footer-button" href="#" type="submit">Zapisz Się<svg width="24" height="24"><use href="./images/icons.svg#send-icon"></use></svg></button>
+        <button class="sing-in__mail__button" href="#" type="submit">Zapisz Się<svg width="24" height="24"><use href="./images/icons.svg#send-icon"></use></svg></button>
         </div>
     </div>
 </section>
@@ -498,34 +498,34 @@
     
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button"class="close-button" data-modal-close>
+            <button type="button"class="modl__close-button" data-modal-close>
             </button >
-            <h3 class="header-form">Zostaw swoje dane w formularzu ponizej</h3>
-            <form class="my-form">
-                <fieldset class="fieldset">
+            <h3 class="modal__header">Zostaw swoje dane w formularzu ponizej</h3>
+            <form class="modal__from">
+                <fieldset class="modal__form__fieldset">
                     <label for="username">Imie</label>
                     <svg width="12" height="12">
                         <use href="./images/icons.svg#user-icon" ></use>
                     </svg>    
                 <input class="input" type="text" id="username" name="username"/>
             </fieldset>
-            <fieldset class="fieldset">
+            <fieldset class="modal__form__fieldset">
                 <label for="phone-number">Telefon</label>
                 <svg width="13" height="13">
                     <use href="./images/icons.svg#phone-icon" ></use>
                 </svg>    
             <input class="input" type="tel" id="phone-number" name="phone-number"/>
         </fieldset>
-        <fieldset class="fieldset">
+        <fieldset class="modal__form__fieldset">
             <label for="email-adress">Email</label>
             <svg width="15" height="12">
                 <use href="./images/icons.svg#email-icon" ></use>
             </svg>    
         <input class="input" type="email" id="email-adress" name="email-adress" />
     </fieldset>
-    <fieldset class="fieldset">
+    <fieldset class="modal__form__fieldset">
         <label for="comment">Komnetarz</label>   
-    <textarea class="input-comment" id="comment" name="comment" placeholder="Wprowadź tekst" rows="5"></textarea>
+    <textarea class="modal__form__fieldset__textaea" id="comment" name="comment" placeholder="Wprowadź tekst" rows="5"></textarea>
 </fieldset>
 <label class="contanier-checkbox">
     <input type="checkbox" class="hide-checkbox" />
