@@ -20,13 +20,12 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
-    
+   
     
     <header>
         
-        <div class="container container-heder">
-            <div class="logo-navy">
+        <div class="container header__container">
+            <div class="header__container__navigation">
                 <a class="logo" href="./index.html"><span class="logo1">Web</span>Studio</a>
                 <nav>
                 
@@ -40,18 +39,18 @@
                 </div>
                     
             
-            <ul class="header-address style-list">
+            <ul class="header__container__contact style-list">
                 <li ><a class="contact" href="mailto:info@devstudio.com"> <svg class="contact-icon-mail"><use href="./images/icons.svg#icon-koperta1"></use></svg> info@devstudio.com</a></li>
                 <li><a class="contact" href="tel:+48111111111"><svg class="contact-icon-phone"><use href="./images/icons.svg#icon-smartphone"></use></svg> +48 111 111 111</a></li>
             </ul>
         </div>
-            <section class="h1-background-section">
+            <section class="header__banner ">
 
-<div class="h1-grey container">
+<div class="header__banner__shadow container">
     
     
-            <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
-            <button class="button1st" type="button" data-modal-open>Zamów usługe</button>
+            <h1 class="header__banner__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
+            <button class="header__banner__button" type="button" data-modal-open>Zamów usługe</button>
 
         
         </div>
@@ -62,18 +61,18 @@
 
         <main>
             <section class="section">
-                <div class="our-strengths container">
+                <div class="loremips container">
                       <ul class="style-list">
                      <li>
-                        <div class="background-lorem-icon">
-                        <svg class="icon-lorem" >
+                        <div class="loremips__card">
+                        <svg class="loremips__icon" >
                             <use href="./images/icons.svg#icon-antenna">
                             
                             </use>
                         </svg>
                         </div>
-                        <h3 class="tittle1">Lorem Ipsum</h3>
-                        <span class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
+                        <h3 class="loremips__title">Lorem Ipsum</h3>
+                        <span class="loremips__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
                         
 
                         
@@ -82,8 +81,8 @@
                      </li>
                      
                      <li >
-                         <div  class="background-lorem-icon">
-                         <svg class="icon-lorem">
+                         <div  class="loremips__card">
+                         <svg class="loremips__icon">
                              <use href="./images/icons.svg#icon-clock">
                                  
                             </use>
@@ -91,31 +90,31 @@
                          </div>
                         
                         
-                        <h3 class="tittle1">Lorem Ipsum</h3>
-                        <span class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
+                        <h3 class="loremips__title">Lorem Ipsum</h3>
+                        <span class="loremips__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
                      </li>
                       <li>
-                        <div  class="background-lorem-icon">
-                        <svg class="icon-lorem">
+                        <div  class="loremips__card">
+                        <svg class="loremips__icon">
                             <use href="./images/icons.svg#icon-diagram">
                             
                             </use>
                             
                         </svg>
                         </div>
-                          <h3 class="tittle1">Lorem Ipsum</h3>
-                        <span class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
+                          <h3 class="loremips__title">Lorem Ipsum</h3>
+                        <span class="loremips__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
                      </li>
                       <li>
-                        <div  class="background-lorem-icon">
-                        <svg class="icon-lorem">
-                            <use href="./images/icons.svg#icon-astronaut">
+                        <div  class="loremips__card">
+                        <svg class="loremips__icon">
+                            <use href="./images/icons.svg#icon-astronaut">ec
                             
                             </use>
                         </svg>
                     </div>
-                        <h3 class="tittle1">Lorem Ipsum</h3>
-                        <span class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
+                        <h3 class="loremips__title">Lorem Ipsum</h3>
+                        <span class="loremips__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</span>
                         </li>
                     </ul>
             </div>
@@ -123,32 +122,33 @@
 
             
             
-            <section class="section container column-look">
+            <section class="product">
+                <div class="section container column-look">
                 <h2 class="tittle2">Czym się zajmujemy</h2>
-                
-            <div class="what-we-do">
-
-<div class="what-we-do-img">
+                <div class="product__list">
+                    
+<div class="product-card">
                 <img src="./images/1photo.jpg" alt="" width="370" height="294">
-                <p>APLIKACJE KOMPUTEROWE</p>
+                <p class="product-card__banner"  >APLIKACJE KOMPUTEROWE</p>
             </div>
 
 
 
 
-            <div class="what-we-do-img">
+            <div class="product-card">
                 <img src="./images/2photo.jpg" alt="" width="370" height="294">
-                <p>APLIKACJE MOBILNE</p>
+                <p class="product-card__banner" >APLIKACJE MOBILNE</p>
             </div>
 
 
 
 
-              <div class="what-we-do-img">
+              <div class="product-card">
                 <img src="./images/3photo.jpg" alt="" width="370" height="294">
-                <p>ROZWIĄZANIA GRAFICZNE</p>
+                <p class="product-card__banner">ROZWIĄZANIA GRAFICZNE</p>
             </div>
             </div>
+        </div>
             </section>
 
 <section class="crew-section">
@@ -159,13 +159,13 @@
 
             <div class="team-cards">
                 <figure>
-                    <img src="./images/1crew.jpg" alt="" width="270" height="260">
+                    <img class="team-cards__image" src="./images/1crew.jpg" alt="" >
                     <figcaption>
-                    <h5 class="crew-name">John Doe</h5>
-                    <p class="crew-job-posiion">Frontend Developer</p>
-                    <div class="crew-social-media">
+                    <h5 class="team-cards__crew-name">John Doe</h5>
+                    <p class="team-cards__crew-job-posiion">Frontend Developer</p>
+                    <div class="team-cards__crew-social-media">
 
-                        <div class="background-socialmedia-icon">      
+                        <div class="team-cards__crew-social-media__item">      
                         <svg width="20" height="20" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-instagram">
                     
@@ -173,7 +173,7 @@
                         </svg>
                     </div> 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="17" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-twitter">
                     
@@ -183,7 +183,7 @@
                         
 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="10" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-facebook">
                     
@@ -191,7 +191,7 @@
                         </svg>
                     </div>
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-linkedin">
                     
@@ -212,13 +212,13 @@
                
             
                 <figure>
-                    <img src="./images/2crew.jpg" alt="" width="270" height="260">
+                    <img class="team-cards__image" src="./images/2crew.jpg" alt="">
                     <figcaption>
-                    <h5 class="crew-name">John Doe</h5>
-                    <p class="crew-job-posiion">Frontend Developer</p>
-                    <div class="crew-social-media">
+                    <h5 class="team-cards__crew-name">John Doe</h5>
+                    <p class="team-cards__crew-job-posiion">Frontend Developer</p>
+                    <div class="team-cards__crew-social-media">
 
-                        <div class="background-socialmedia-icon">      
+                        <div class="team-cards__crew-social-media__item">      
                         <svg width="20" height="20" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-instagram">
                     
@@ -226,7 +226,7 @@
                         </svg>
                     </div> 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="17" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-twitter">
                     
@@ -236,7 +236,7 @@
                         
 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="10" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-facebook">
                     
@@ -244,7 +244,7 @@
                         </svg>
                     </div>
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-linkedin">
                     
@@ -261,14 +261,14 @@
             
             
                 <figure>
-                    <img src="./images/3crew.jpg" alt="" width="270" height="260">
+                    <img class="team-cards__image" src="./images/3crew.jpg" alt="">
                     <figcaption>
-                    <h5 class="crew-name">John Doe</h5>
-                    <p class="crew-job-posiion">Marketing</p>
+                    <h5 class="team-cards__crew-name">John Doe</h5>
+                    <p class="team-cards__crew-job-posiion">Marketing</p>
 
-                    <div class="crew-social-media">
+                    <div class="team-cards__crew-social-media">
 
-                        <div class="background-socialmedia-icon">      
+                        <div class="team-cards__crew-social-media__item">      
                         <svg width="20" height="20" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-instagram">
                     
@@ -276,7 +276,7 @@
                         </svg>
                     </div> 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="17" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-twitter">
                     
@@ -286,7 +286,7 @@
                         
 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="10" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-facebook">
                     
@@ -294,7 +294,7 @@
                         </svg>
                     </div>
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-linkedin">
                     
@@ -309,13 +309,13 @@
             
                 
                 <figure>
-                    <img src="./images/4crew.jpg" alt="" width="270" height="260">
+                    <img class="team-cards__image" src="./images/4crew.jpg" alt="">
                     <figcaption>
-                    <h5 class="crew-name">John Doe</h5>
-                    <p class="crew-job-posiion">UI Designer</p>
-                    <div class="crew-social-media">
+                    <h5 class="team-cards__crew-name">John Doe</h5>
+                    <p class="team-cards__crew-job-posiion">UI Designer</p>
+                    <div class="team-cards__crew-social-media">
 
-                        <div class="background-socialmedia-icon">      
+                        <div class="team-cards__crew-social-media__item">      
                         <svg width="20" height="20" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-instagram">
                     
@@ -323,7 +323,7 @@
                         </svg>
                     </div> 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="17" class="socialmedia-icon">
                             <use href="./images/icons.svg#icon-twitter">
                     
@@ -333,7 +333,7 @@
                         
 
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="10" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-facebook">
                     
@@ -341,7 +341,7 @@
                         </svg>
                     </div>
 
-                    <div class="background-socialmedia-icon">
+                    <div class="team-cards__crew-social-media__item">
                         <svg width="20" height="20" class="socialmedia-icon">
                                 <use href="./images/icons.svg#icon-linkedin">
                     
@@ -368,28 +368,28 @@
 
         <section class="section container column-look">
             <h2 class="tittle2">Nasi klienci</h2>
-            <div class="our-client">
+            <div class="client">
 
 
 
-                <div class="business-border">
-                <svg class="business-size">
+                <div class="client_item">
+                <svg class="client_logo">
                     <use href="./images/icons.svg#icon-firma1">
 
                     </use>
                 </svg>
             </div>
 
-<div class="business-border">
-                <svg class="business-size">
+<div class="client_item">
+                <svg class="client_logo">
                     <use href="./images/icons.svg#icon-firma2">
 
                     </use>
                 </svg >
             </div>
 
-            <div class="business-border">
-                <svg class="business-size">
+            <div class="client_item">
+                <svg class="client_logo">
                     <use href="./images/icons.svg#icon-firma3">
 
                     </use>
@@ -398,8 +398,8 @@
 
 
 
-<div class="business-border">
-                <svg --color2:red; class="business-size">
+<div class="client_item">
+                <svg --color2:red; class="client_logo">
                     <use href="./images/icons.svg#icon-firma4">
 
                     </use>
@@ -407,8 +407,8 @@
 </div>
 
 
-<div class="business-border">
-                <svg class="business-size">
+<div class="client_item">
+                <svg class="client_logo">
                 
                     <use href="./images/icons.svg#icon-firma5">
 
@@ -416,8 +416,8 @@
                 </svg>
             </div>
 
-<div class="business-border">
-                <svg class="business-size">
+<div class="client_item">
+                <svg class="client_logo">
                     <use href="./images/icons.svg#icon-firma6">
 
                     </use>
@@ -434,15 +434,13 @@
 
 
         </main>
-        <footer class="grey-section">
+        <footer class="footer-section ">
             <section class="container section ">
-                <div class="footer-position">
-                <div class="logo-footer">
-                    <div>
+                <div class="footer-position logo-footer ">
+                <div>
+                    <div >
                 <a class="logo2" href="./index.html"><span class="logo1">Web</span>Studio</a>
             </div>
-
-
         <ul class="style-list">
             <li>
                 <address class="adres-footer">m. Warszawa, Aleje Jerozolimskie 21</address>
@@ -452,12 +450,9 @@
             <li><a class="contact-footer" href="tel:+48111111111">+48111111111</a></li>
         </ul>
     </div>
-        
-        
         <div class="footer-socialmedia-wrraper">
             <h3 class="tittle1-footer">DOŁĄCZ DO NAS</h3>
             <div class="footer-social-media">
-                
                 <div class="footer-background-socialmedia-icon">      
                     <svg width="20" height="20" class="footer-socialmedia-icon">
                         <use href="./images/icons.svg#icon-instagram">
@@ -465,7 +460,6 @@
                         </use>
                     </svg>
                 </div> 
-                
                 <div class="footer-background-socialmedia-icon">
                     <svg width="20" height="17" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-twitter">
@@ -473,9 +467,6 @@
                     </use>
                 </svg>
             </div>
-            
-            
-            
             <div class="footer-background-socialmedia-icon">
                 <svg width="10" height="20" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-facebook">
@@ -483,21 +474,16 @@
                     </use>
                 </svg>
             </div>
-            
+
             <div class="footer-background-socialmedia-icon">
                 <svg width="20" height="20" class="footer-socialmedia-icon">
                     <use href="./images/icons.svg#icon-linkedin">
                         
                     </use>
                 </svg>
-            </div>
-            
+            </div> 
         </div>
     </div>
-
-
-
-
     <div>
     <h3  class="tittle1-footer">ZAPISZ SIĘ DO NEWSLETTERA</h3>
     <div class="email-submit">
@@ -506,8 +492,6 @@
         </fieldset>
         <button class="footer-button" href="#" type="submit">Zapisz Się<svg width="24" height="24"><use href="./images/icons.svg#send-icon"></use></svg></button>
         </div>
-        
-
     </div>
 </section>
     </footer>
@@ -517,9 +501,7 @@
             <button type="button"class="close-button" data-modal-close>
             </button >
             <h3 class="header-form">Zostaw swoje dane w formularzu ponizej</h3>
-
             <form class="my-form">
-
                 <fieldset class="fieldset">
                     <label for="username">Imie</label>
                     <svg width="12" height="12">
@@ -527,7 +509,6 @@
                     </svg>    
                 <input class="input" type="text" id="username" name="username"/>
             </fieldset>
-
             <fieldset class="fieldset">
                 <label for="phone-number">Telefon</label>
                 <svg width="13" height="13">
@@ -535,7 +516,6 @@
                 </svg>    
             <input class="input" type="tel" id="phone-number" name="phone-number"/>
         </fieldset>
-
         <fieldset class="fieldset">
             <label for="email-adress">Email</label>
             <svg width="15" height="12">
@@ -543,51 +523,23 @@
             </svg>    
         <input class="input" type="email" id="email-adress" name="email-adress" />
     </fieldset>
-
-
     <fieldset class="fieldset">
         <label for="comment">Komnetarz</label>   
     <textarea class="input-comment" id="comment" name="comment" placeholder="Wprowadź tekst" rows="5"></textarea>
 </fieldset>
-
-
-
-
 <label class="contanier-checkbox">
     <input type="checkbox" class="hide-checkbox" />
     Oświadczam, iż akceptuję <a href="" target="_blank" class="contanier-checkbox-link">Regulamin</a> i <a
       href="" target="_blank" class="contanier-checkbox-link">Politykę
       prywatności</a>
   </label>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="form-button-position">
 <button class="form-button" href="#" type="submit">Wyślij</button>
 </div>
-</form>
-
-
-            
+</form>     
         </div>
     </div>
-    <script src="./js/modal.js"></script>
-
-    
+    <script src="./js/modal.js"></script>  
 </body>
 </html>
 
